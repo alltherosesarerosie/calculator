@@ -2,7 +2,7 @@
     <string name="app_name">calculator</string>
     <string name="ac" translatable="false">AC</string>
     <string name="pl_minus" translatable="false">+/-</string>
-    <string name="percentage" translatable="false">%</string>
+    <string name="percent" translatable="false">%</string>
     <string name="division" translatable="false">÷</string>
     <string name="multiplication" translatable="false">×</string>
     <string name="minus" translatable="false">-</string>
@@ -10,6 +10,7 @@
     <string name="point" translatable="false">.</string>
     <string name="equal" translatable="false">=</string>
     <string name="zero" translatable="false">0</string>
+    <string name="zero_" translatable="false">0</string>
     <string name="one" translatable="false">1</string>
     <string name="two" translatable="false">2</string>
     <string name="three" translatable="false">3</string>
@@ -19,4 +20,11 @@
     <string name="seven" translatable="false">7</string>
     <string name="eight" translatable="false">8</string>
     <string name="nine" translatable="false">9</string>
+    <string name="policies">Policies</string>
+    <string name="policy">Policy</string>
+    <string name="current_policies">Current Policies</string>
+    <string name="export_as_csv">Export as CSV</string>
+    <string name="product_category">Product Category</string>
+    <string name="origin_country">Origin Country</string>
+    <string name="brand">Brand</string>
 </resources>

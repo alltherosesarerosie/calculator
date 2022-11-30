@@ -13,6 +13,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/container"
         >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="onClickOpen"
+            android:id="@+id/top_btn"
+            android:drawableEnd="@drawable/ic_next"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatButton>
         <TextView
             android:id="@+id/text_view"
             android:layout_marginHorizontal="34dp"
@@ -58,9 +72,11 @@
                 android:text="@string/pl_minus" />
 
             <com.google.android.material.button.MaterialButton
+                android:onClick="onOperationClick"
+                android:id="@+id/btn_percent"
                 style="@style/Gray.Button"
                 android:layout_marginEnd="14dp"
-                android:text="@string/percentage" />
+                android:text="@string/percent" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_division"
@@ -173,7 +189,8 @@
                 android:onClick="onNumberClick"
                 android:layout_marginEnd="14dp"
                 style="@style/DarkGray.Button"
-                android:text="@string/three"/>
+                android:text="@string/three"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:onClick="onOperationClick"
@@ -195,13 +212,14 @@
 
 
             <com.google.android.material.button.MaterialButton
+                android:onClick="onNumberClick"
                 android:id="@+id/btn_zero"
                 android:paddingStart="30dp"
                 android:paddingEnd="0dp"
                 android:textAlignment="textStart"
                 android:layout_width="172dp"
                 style="@style/DarkGray.Button"
-                android:text="@string/zero" />
+                android:text="@string/zero_" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_point"
